@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+    <style>
+        *#particles-js {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <!--  I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#clases" onclick="seleccionar(this)"> TABLA DE CONTENIDO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#reflexion" onclick="seleccionar(this)">REFLEXIÓN</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class=""></i></a>
+                        <a href="#"><i class=""></i></a>
+                        <a href="#"><i class=""></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>PORTAFOLIO ELECTRÓNICO</h2>
+                <h2>Desarrollo de aplicaciones Web</h2>
+                <p class="descripcion">¡Bienvenidos a mi portafolio web! Aquí, podrán explorar mi aprendizaje en 16
+                    semanas en el mundo del desarrollo de aplicaciones web, tanto en el backend como en el frontend.
+                    Encontrarán información sobre las cosas que aprendí, desde definiciones hasta procedimientos y
+                    resultados. Además, compartiré detalles sobre quién soy, los proyectos en los que he estado
+                    trabajando y mis reflexiones sobre todo este proceso de aprendizaje. También podrán echar un vistazo
+                    a las habilidades que he adquirido en este emocionante viaje. ¡Espero que disfruten su visita y
+                    encuentren inspiración en base a mi aprendizaje!</p>
+                <a href="#clases">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CLASES -->
+    <section id="clases" class="clases">
+        <div class="contenido-seccion">
+            <h2>Cuaderno Personal</h2>
+            <div class="galeria">
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 1</h4>
+                    </section>
+                    <img src="img/s1.jpg" alt="">
+                    <div class="overla">
+                        <h3></h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs1.jpg" alt="">
+                        <h2>¿Qué temas aprendí?</h2>
+                        <h2>Fundamentos de las tecnologías web</h2>
+                        <P>En la primera semana del curso, aprendí una serie de conceptos introductorios esenciales.
+                            Comencé comprendiendo la importancia del protocolo TCP/IP en la comunicación en línea y cómo
+                            facilita la transferencia de datos entre dispositivos en una red. Además, aprendí sobre el
+                            papel fundamental del protocolo HTTP en la World Wide Web, permitiendo la transferencia de
+                            información y recursos entre servidores y clientes.</P>
+                        <P>Dentro del desarrollo de aplicaciones web, se discutieron los diferentes roles en el proceso.
+                            Se destacaron dos roles principales: el desarrollador Frontend y el desarrollador Backend.
+                            Para el lado del cliente o Frontend, se trató de las tecnologías clave, como HTML,
+                            JavaScript y CSS, y cómo se utilizan para crear la interfaz de usuario de una aplicación
+                            web. También se exploraron herramientas importantes, como Node.js y TypeScript, que mejoran
+                            la eficiencia en el desarrollo web. Además, se mencionaron ejemplos de frameworks
+                            JavaScript, como Angular, que simplifican la creación de aplicaciones web interactivas.</P>
+                        <P>En el lado del servidor o Backend, se introdujeron varios lenguajes de programación
+                            utilizados, como PHP, Java, Python y Ruby, cada uno con sus propias ventajas y casos de uso.
+                            También se abordaron diferentes gestores de bases de datos, como SQL Server, Oracle, SQLite,
+                            MySQL y MariaDB, junto con consideraciones al elegir uno para una aplicación web. Por
+                            último, se destacó la importancia del diseño de la interfaz de usuario (UI) y la experiencia
+                            del usuario (UX), y se presentaron herramientas como Figma y Adobe XD para crear prototipos
+                            y diseños de aplicaciones web. </P>
+                        <h2>Reflexión</h2>
+                        <P>ha sido un sólido punto de partida. He adquirido conocimientos fundamentales sobre protocolos
+                            web, roles en desarrollo de aplicaciones y tecnologías esenciales</P>
+
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 2</h4>
+                    </section>
+                    <img src="img/s2.jpg" alt="">
+                    <div class="overla">
+                        <h3>Diseño Creativo</h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs2.png" alt="">
+                        <h2>¿Qué temas aprendí?</h2>
+                        <h2>Lenguaje Marcado de Hipertexto HTML y Lenguaje
+                            Marcado Extensible XML, uso css</h2>
+                        <p>Durante esta semana, aprendí temas fundamentales relacionados con HTML y un poco de CSS.
+                            Comencé entendiendo la "Open Web Platform", una colección de
+                            tecnologías abiertas y estándares como HTML5, CSS, SVG y MathML. Esta plataforma promueve
+                            principios como la independencia de las empresas y la transparencia, lo que la convierte en
+                            la base sólida del desarrollo web moderno. Además, adquirí un entendimiento profundo de
+                            HTML, un lenguaje de marcado que define la estructura y semántica del contenido web, desde
+                            sus etiquetas fundamentales hasta su historia como una herramienta de hipertexto.</P>
+                        <P>En cuanto a procedimientos, profundicé en la construcción de páginas web mediante HTML y
+                            CSS. Aprendí cómo funcionan estos lenguajes y cómo utilizarlos para estructurar y
+                            estilizar el contenido web. Exploré las etiquetas principales en HTML y las unidades de
+                            longitud utilizadas en el diseño web. Además, me adentré en el mundo de los selectores y
+                            las técnicas de maquetación en CSS, incluyendo conceptos avanzados como Flexbox y Grid,
+                            así como técnicas de posicionamiento y diseño fluido. También abordé prácticas
+                            esenciales de accesibilidad y me familiaricé con las normativas estándares, como las
+                            pautas WCAG 2.1, para garantizar una experiencia web inclusiva.
+                        </P>
+                        <P>
+                            Obtuve un conocimiento del Document Object Model (DOM) y cómo se representa como un
+                            árbol de elementos en JavaScript. Esto me permitió comprender cómo interactuar
+                            dinámicamente con el contenido y los estilos de una página web. También exploré el ciclo
+                            de vida de una página web, desde su carga inicial hasta su renderización y visualización
+                            en el navegador. Desarrollé habilidades sólidas para crear páginas web efectivas,
+                            responsivas y accesibles, lo que me preparó para abordar proyectos web de manera exitosa
+                            en el futuro.
+                        </P>
+                        <h2>Reflexión</h2>
+                        <P>Descubrir la importancia de estándares abiertos y la accesibilidad en la creación de sitios
+                            web me ha hecho apreciar la responsabilidad que conlleva el desarrollo web. Adquirir
+                            conocimientos prácticos en HTML, CSS y la manipulación dinámica de elementos en la web me ha
+                            dado la confianza para enfrentar desafíos.
+                        </P>
+
+                        <a href="https://github.com/zsergio1/practicas/tree/main/PR%C3%81CTICAS%20DESARROLLO%20DE%20APLICACIONES%20WEB/SEMANA02/Emmet"
+                            class="contact">ver proyecto</a>
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 3</h4>
+                    </section>
+                    <img src="img/s3.jpg" alt="">
+                    <div class="overla">
+                        <h3>Diseño Creativo</h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs3.png" alt="">
+                        <h2>¿Qué temas aprendí?</h2>
+                        <h2>Front-End con Librería CSS Bootstrap y Tailwind</h2>
+                        <P>Durante esta fase del curso, aprendí la creación de páginas web Front-End utilizando dos
+                            destacadas librerías de CSS: Bootstrap y Tailwind. En primer lugar, exploré Bootstrap, una
+                            librería ampliamente utilizada que simplifica la creación de interfaces de usuario
+                            atractivas y responsivas. A través de este estudio, comprendí cómo aprovechar las
+                            herramientas proporcionadas por Bootstrap para diseñar diseños de página efectivos y
+                            componentes reutilizables. Además, aprendi del uso dee Tailwind, otra librería de CSS que se
+                            caracteriza por su enfoque modular y personalizable en el desarrollo de interfaces
+                            de usuario. </P>
+                        <P>En términos de procedimientos, aprendí cómo crear y personalizar diseños de página web
+                            utilizando ambas librerías. Esto incluyó el manejo de conceptos como contenedores, columnas,
+                            puntos de quiebre y la disposición de elementos en la página. También profundicé en la
+                            tipografía, abordando aspectos como las fuentes, líneas y efectos de texto, y exploré cómo
+                            aplicar estilos a fondos, bordes y tablas.
+                        </P>
+                        <P>Además, me sumergí en el uso de Flexbox, una técnica de diseño que permite una alineación y
+                            distribución flexible de elementos en la página. Esto incluyó conceptos como la dirección de
+                            flexión, el ajuste
+                            de elementos y el crecimiento de elementos en relación con el espacio disponible. Por
+                            último, pero no menos importante,
+                            aprendí a diseñar la interfaz de usuario de aplicaciones web, abordando elementos comunes
+                            como encabezados,
+                            visualización de datos, listas, formularios, navegación y superposiciones. Esto me
+                            proporcionó las habilidades
+                            necesarias para crear experiencias de usuario efectivas y atractivas en aplicaciones web
+                            utilizando Bootstrap y
+                            Tailwind, aprovechando al máximo sus capacidades para diseñar interfaces de usuario
+                            responsivas y personalizables.
+                            Como parte práctica se desarrolló diseños responsivos usando Flexbox, grid y float</P>
+                        <h2>Reflexión</h2>
+                        <P>He aprendido a personalizar diseños, tipografía y efectos de estilo, además de usar Flexbox
+                            para una distribución flexible de elementos. También he mejorado mis habilidades en el
+                            diseño de interfaces de usuario efectivas.</P>
+
+                        <a href="https://github.com/zsergio1/practicas/tree/main/PR%C3%81CTICAS%20DESARROLLO%20DE%20APLICACIONES%20WEB/SEMANA03"
+                            class="contact">ver proyecto</a>
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 4</h4>
+                    </section>
+                    <img src="img/s4.jpg" alt="">
+                    <div class="overla">
+                        <h3>Diseño Creativo</h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs4.png" alt="">
+                        <h2>¿Qué temas aprendí?</h2>
+                        <h2>Manejar el DOM con Javascript y Canvas</h2>
+                        <P>Comencé viendo los motores JavaScript, las variables y los operadores, lo que me permitió
+                            entender cómo se ejecuta y procesa el código JavaScript en los navegadores. Además,
+                            profundicé en los tipos de datos, como los métodos y booleanos, y aprendí a utilizar
+                            estructuras de control y bucles para gestionar el flujo de ejecución en mis programas.En el
+                            ámbito de las funciones, adquirí un entendimiento de su sintaxis y cómo invocarlas. Exploré
+                            varios tipos de funciones, desde las anónimas hasta las funciones flecha.</P>
+                        <P>Otra área importante de aprendizaje fue el manejo del Document Object Model (DOM) con
+                            JavaScript y Canvas. Esta habilidad me permitió interactuar con la estructura y el contenido
+                            de una página web de manera dinámica, lo que es esencial para la creación de aplicaciones
+                            web interactivas y dinámicas. También se destacó la importancia de JavaScript como un
+                            lenguaje de scripting dinámico en el desarrollo web moderno. Además, se presentó Node.js
+                            como una plataforma que amplía las capacidades de JavaScript al permitir su ejecución en el
+                            lado del servidor, lo que abre nuevas posibilidades en el desarrollo web.
+                        </P>
+                        <P>Durante la práctica, apliqué estos conocimientos creando elementos visuales interactivos en
+                            Canvas, como un reloj analógico y un gráfico de pastel. Estos ejercicios prácticos
+                            fortalecieron mi comprensión de JavaScript y su aplicación en la creación de experiencias
+                            interactivas en el navegador.</P>
+                        <h2>Reflexión</h2>
+                        <P>Este aprendizaje en JavaScript ha sido revelador. Desde los fundamentos hasta la manipulación
+                            del DOM y la introducción a Node.js, he descubierto un amplio campo de posibilidades en el
+                            desarrollo web</P>
+                        <a href="https://github.com/zsergio1/practicas/tree/main/PR%C3%81CTICAS%20DESARROLLO%20DE%20APLICACIONES%20WEB/SEMANA04"
+                            class="contact">ver proyecto</a>
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 5</h4>
+                    </section>
+                    <img src="img/s5.jpg" alt="">
+                    <div class="overla">
+                        <h3>Diseño Creativo</h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs5.png" alt="">
+                        <h2>¿Qué temas apredió?</h2>
+                        <h2>Desarrollo de aplicación FrontEnd con Framework JS</h2>
+                        <P>Aprendi la historia de React, lo que me proporcionó un contexto valioso sobre su evolución y
+                            su relevancia en la industria actual. Además, me sumergí en un conjunto de herramientas
+                            esenciales para trabajar con React, como Babel.js, ESLint y Beauty Tools/CSS-Beautifier.php.
+                            Estas herramientas facilitan el desarrollo y el mantenimiento del código, asegurando una
+                            práctica óptima en la creación de aplicaciones React.
+                        </P>
+                        <P>Para la gestión de recursos y estilos en aplicaciones React, adquirí conocimientos sobre
+                            FontAwesome.com y Favicon.com, que son recursos valiosos para el manejo de iconos y favicons
+                            en sitios web. Además, exploré Webpack.js, una herramienta de construcción (bundler) que
+                            simplifica la gestión de dependencias y mejora el rendimiento de las aplicaciones React.</P>
+                        <P>En el ámbito de los estilos, profundicé en el uso de SCSS y SAS, que son preprocesadores que
+                            permiten una gestión más eficiente y modular de los estilos en aplicaciones web. También me
+                            familiaricé con herramientas de instalación y configuración esenciales como Vite.js,
+                            Remixram, Next.js y Gatsby.js, que son ampliamente utilizadas en el desarrollo de
+                            aplicaciones React.
+                        </P>
+                        <h2>Reflexión</h2>
+                        <P>Esta inmersión en React ha sido un viaje educativo y emocionante que me ha equipado con las
+                            habilidades y conocimientos necesarios para desarrollar aplicaciones web más sofisticadas y
+                            eficientes. </P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 6</h4>
+                    </section>
+                    <img src="img/s6.jpg" alt="">
+                    <div class="overla">
+                        <h3>Diseño Creativo</h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs6.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Desarrollar aplicaciones con Eventos, Condicionales y Bucles con Framework JS</h2>
+                        <P>En esta semana, aprendí un poco del desarrollo de aplicaciones con Frameworks de JavaScript,
+                            adquiriendo habilidades en la gestión de eventos, renderizado condicional, iterativo,
+                            formularios, enrutamiento y consumo de APIs. El uso de promesas y async/await junto con la
+                            librería Axios me permitió obtener y mostrar datos de manera eficiente.</P>
+                        <h2>Reflexión</h2>
+                        <P>Una parte fundamental de mi aprendizaje fue el consumo de APIs, que dominé gracias a la
+                            comprensión de promesas y async/await, permitiéndome obtener y mostrar datos de una API de
+                            manera eficiente.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 7</h4>
+                    </section>
+                    <img src="img/s7.jpg" alt="">
+                    <div class="overla">
+                        <h3>Diseño Creativo</h3>
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs7.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Uso de Hooks </h2>
+                        <P>Aprendí a utilizar diversos hooks en React, como useState para gestionar el estado, useEffect
+                            para operaciones secundarias, useContext para compartir datos, useRef para interactuar con
+                            el DOM, useReducer para manejar estados complejos, useCallback y useMemo para optimizar
+                            funciones y cálculos. También exploré la creación de hooks personalizados, mejorando la
+                            eficiencia y modularidad de mis componentes en React. Este conocimiento ha mejorado mi
+                            habilidad para escribir código más limpio y mantenible en proyectos React.</P>
+                        <h2>Reflexión</h2>
+                        <P>
+                            Explorar los hooks en React ha optimizado mi gestión del estado y lógica de componentes.
+                            Desde useState hasta useReducer, cada hook ofrece soluciones poderosas. Crear hooks
+                            personalizados amplió mi capacidad para construir componentes eficientes en solo tres
+                            líneas.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 8</h4>
+                    </section>
+                    <img src="img/s8.jpg" alt="">
+                    <div class="overla">
+                        <h3>EVALUACIÓN PRIMER CONSOLIDADO</h3>
+
+                    </div>
+                </div>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 9</h4>
+                    </section>
+                    <img src="img/s9.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs9.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Next JS – CSR / SSR</h2>
+                        <P>Descubrir Next.js y su capacidad para implementar rendimiento del lado del cliente (CSR) y
+                            del lado del servidor (SSR) ha transformado mi enfoque en el desarrollo web. La facilidad
+                            para crear proyectos, gestionar el enrutamiento, aplicar estilos y trabajar con formularios
+                            en Next.js ha simplificado significativamente el proceso de desarrollo.</P>
+                        <h2>Reflexión</h2>
+                        <P>La eficiencia de Next.js ha transformado la forma en que abordo el diseño web, permitiéndome
+                            centrarme más en la lógica de la aplicación y menos en la configuración técnica.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 10</h4>
+                    </section>
+                    <img src="img/s10.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs10.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Static Generate – Static Regeneratión</h2>
+                        <P>Explorar Next.js con sus capacidades de CSR y SSR ha ampliado mi perspectiva en el desarrollo
+                            web. Desde la creación del proyecto y enrutamiento en Next, hasta el manejo de estilos y
+                            formularios con TypeScript, la plataforma ofrece una integración fluida y eficiente. La
+                            implementación de conceptos como Static Generate, Static Regeneration, Incremental Static
+                            Regeneration (ISR) e Incremental Static Generation (ISG) ha enriquecido mi comprensión y
+                            habilidades, permitiéndome construir aplicaciones web dinámicas y eficientes con un enfoque
+                            más preciso y avanzado</P>
+                        <h2>Reflexión</h2>
+                        <P>Next.js, con su CSR y SSR, simplifica mi desarrollo web, mientras que conceptos como Static
+                            Generate e Incremental Static Regeneration enriquecen mi capacidad para construir
+                            aplicaciones eficientes.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 11</h4>
+                    </section>
+                    <img src="img/s11.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs11.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Server Side Props / Next Auth</h2>
+                        <P>Explorar Server Side Props y Next Auth ha optimizado mi manejo de la lógica del servidor en
+                            Next.js. Desde la instalación hasta la configuración y la implementación de OAuth, estos
+                            conceptos simplifican la gestión de sesiones y credenciales, permitiéndome construir
+                            autenticación robusta y personalizada de manera eficiente.</P>
+                        <h2>Reflexión</h2>
+                        <P> La facilidad para gestionar sesiones, credenciales y la implementación de OAuth ha
+                            simplificado la construcción de sistemas de autenticación sólidos y personalizados. Estos
+                            conceptos avanzados no solo mejoran la seguridad de mis aplicaciones, sino que también
+                            facilitan el proceso de desarrollo, permitiéndome centrarme en la creación de experiencias
+                            de usuario seguras y eficientes.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 12</h4>
+                    </section>
+                    <img src="img/s12.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs12.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Desarrollo backend</h2>
+                        <P>Explorar el desarrollo backend ha sido esencial para comprender la arquitectura de
+                            aplicaciones web, servidores, y el funcionamiento del server side. Utilizando Java y
+                            Jakarta, junto con herramientas como IntelliJ Idea y Tomcat, he profundizado en el
+                            desarrollo de aplicaciones backend. La implementación de Spring Core y Spring Boot ha
+                            ampliado mis habilidades, explorando términos y características esenciales, modulos Spring,
+                            Servlets, JSP, y potenciando mi capacidad para construir aplicaciones backend robustas.</P>
+                        <h2>Reflexión</h2>
+                        <P>ULa adopción de Spring Core y Spring Boot ha simplificado el desarrollo, permitiéndome
+                            explorar módulos clave y tecnologías como Servlets y JSP. Este conocimiento sólido no solo
+                            mejora la eficiencia en el desarrollo, sino que también fortalece mi capacidad para
+                            construir aplicaciones backend escalables y de alto rendimiento.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 13</h4>
+                    </section>
+                    <img src="img/s13.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs13.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Desarrollar API Rest con Spring</h2>
+                        <P>En el proceso de desarrollar API REST con Spring, he profundizado en conceptos fundamentales
+                            como HTTP, MVC, y la arquitectura de API Rest. La comprensión detallada de estos aspectos
+                            esenciales ha sido clave para construir servicios web eficientes y escalables utilizando el
+                            framework Spring.</P>
+                        <h2>Reflexión</h2>
+                        <P>UDesarrollar API REST con Spring ha sido un camino esencial para entender la interacción
+                            HTTP, la estructura MVC, y la arquitectura específica de API Rest. Esta experiencia no solo
+                            ha mejorado mi capacidad para crear servicios web robustos, sino que también ha ampliado mi
+                            perspectiva sobre cómo diseñar y construir aplicaciones escalables y orientadas a servicios
+                            en entornos empresariales.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 14</h4>
+                    </section>
+                    <img src="img/s14.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+                            <button class="modal__button">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="modal">
+                    <div class="modal__container">
+                        <img src="img/cs14.png" alt="">
+                        <h2>TEMA DE LA SEMANA</h2>
+                        <h2>Registro de Microservicios en Eureka</h2>
+                        <P>El registro de microservicios en Eureka se ha convertido en una parte esencial de mi
+                            experiencia en desarrollo. Desde la creación del servidor Eureka hasta el registro y consumo
+                            de microservicios, este proceso ha sido clave para comprender cómo gestionar eficientemente
+                            la comunicación entre componentes distribuidos.</P>
+                        <h2>Reflexión</h2>
+                        <P>La configuración avanzada y la adaptación al entorno en la nube han ampliado mi habilidad
+                            para diseñar sistemas escalables y flexibles en arquitecturas de microservicios.</P>
+
+                        <div class="close__modal">x</div>
+                    </div>
+                </section>
+                <div class="clase">
+                    <section id="sec" class="sec">
+                        <h4>Semana 15</h4>
+                    </section>
+                    <img src="img/s15.jpg" alt="">
+                    <div class="overla">
+                        <div class="container">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--  S O B R E M I -->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/fuego3.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mí</p>
+            <h2>Hola, Soy <span>Sergio Arias</span> </h2>
+            <h3>Estudiante y Desarrollador Web</h3>
+            <p>Soy estudiante de ingeniería de sistemas con una gran pasión por el desarrollo de aplicaciones web.
+                Constantemente busco aprender nuevas tecnologías y frameworks de vanguardia como React, Angular y Vue.js
+                para ampliar mis habilidades. En mi tiempo libre me enfoco en desarrollar proyectos personales
+                y adquirir nuevos conocimientos sobre desarrollo web.</p>
+            <!-- <a href="#">Descargar CV</a> -->
+        </div>
+    </section>
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Servicios de diseño visual y estructural de páginas web</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación HTML</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Codificación de la estructura básica de las páginas web utilizando HTML
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Diseño de base de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Creación y diseño de bases de datos para respaldar la funcionalidad de un sitio web
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">45%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>WordPress</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REFLEXION GENERAL -->
+    <section id="reflexion">
+
+        <h2>Reflexión</h2>
+        <p class="preguntas"> En el desarrollo de estas 6 primeras semanas he adquirido los fundamentos y habilidades
+            esenciales para desarrollar aplicaciones web
+            modernas. Aprendí los lenguajes base como HTML, XML y CSS, así como frameworks y librerías clave como
+            Bootstrap, Tailwind y JavaScript. Logré crear páginas web estilizadas e interactivas lo que me motivó a
+            seguir aprendiendo más sobre el desarrollo de aplicaciones web.</p>
+    </section>
+    <!-- SECCION PORTAFOLIO DEE PROYECTOS -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto01.png" alt="">
+                <div class="info">
+                    <h5>Descripcion Proyecto</h5>
+                    <p>Página web informativa VCOMAISCI - UNCP</p>
+
+                    <a href="https://vcongresomacroregional.sistemasuncp.edu.pe/">Vista</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h5>Descripcion Proyecto</h5>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h5>Descripcion Proyecto</h5>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Correo" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Detallame" class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - SERGIO ARIAS</p>
+        <div class="redes">
+            <a href="#"><i class=""></i></a>
+            <a href="#"><i class=""></i></a>
+            <a href="#"><i class=""></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
